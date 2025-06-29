@@ -74,14 +74,14 @@ def login_to_n8n(driver):
         print("Looking for email field...")
         email_field = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "input[type='email'], input[name='email'], input[id='email']")))
         email_field.clear()
-        email_field.send_keys("mike.jackson@realtyamp.ai")
+        email_field.send_keys("ah912425@gmail.com")
         print("Email entered successfully")
         
         # Find and fill password field
         print("Looking for password field...")
         password_field = driver.find_element(By.CSS_SELECTOR, "input[type='password'], input[name='password'], input[id='password']")
         password_field.clear()
-        password_field.send_keys("Legal%3490")
+        password_field.send_keys("Arq1jas112200!")
         print("Password entered successfully")
         
         # Find and click sign in button
