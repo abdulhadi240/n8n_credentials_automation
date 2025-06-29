@@ -65,7 +65,7 @@ def login_to_n8n(driver):
     try:
         # Navigate to the login page
         print("Navigating to N8N login page...")
-        driver.get("https://n8n.realtyamp.ai/")
+        driver.get("https://n8n.srv876975.hstgr.cloud/")
         
         # Wait for page to load
         wait = WebDriverWait(driver, 15)
